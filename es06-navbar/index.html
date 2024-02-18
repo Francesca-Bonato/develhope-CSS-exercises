@@ -1,0 +1,47 @@
+<!--Replicare la struttura html della navbar presente nel file png, disponibile al download, senza utilizzare un foglio di stile CSS.-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=device-width" />
+
+    <title>Navigation Bar exercise</title>
+    <meta name="title" content="Navigation Bar exercise" />
+    <meta
+      name="description"
+      content="Exercise to build a navigation bar with HTML and CSS"
+    />
+    <meta name="author" content="Francesca Bonato" />
+
+    <link
+      rel="shortcut icon"
+      href="develhope-favicon.ico"
+      type="image/X-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-element">
+        <h3>Navbar</h3>
+      </div>
+      <div class="nav-element">
+        <a href="index.html">Home</a>
+        <a href="" disabled>Link</a>
+        <select>
+          <option value="">Dropdown</option>
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+        </select>
+        <button disabled>Disabled</button>
+      </div>
+      <div class="nav-element" id="query">
+        <input type="text" id="search" name="search" placeholder="Search" />
+        <button>Search</button>
+      </div>
+    </nav>
+  </body>
+</html>

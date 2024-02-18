@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#1f1f1f;
+}
+
+/* allineamento degli elementi della navbar, attenzione al titolo h3 in quanto block-type */
+.nav-element {
+    display: inline-block;
+}
+
+/* meglio settare un padding piuttosto che l'altezza della barra, in questo modo il testo rimane centrato */
+nav {
+    background-color:  #212529;
+    width: 100%;
+    padding: 11px;
+    border-bottom: 1px solid white;
+    font-family: Calibri;
+    position: static;
+}
+
+.nav-element h3 {
+    color: white;
+    margin-right: 15px;
+}
+
+.nav-element a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    &[disabled] {
+        color: #9B9D9F;
+    }
+}
+
+.nav-element select {
+    background: local;
+    border: none;
+    color: #9B9D9F;
+    margin-right: 10px;
+}
+
+.nav-element button[disabled] {
+    background: local;
+    border: none;
+    color: #595B5F;
+}
+
+#query {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+#query input {
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#query button {
+    color: green;
+    background: local;
+    border: 1px solid green;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
