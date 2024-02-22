@@ -1,0 +1,16 @@
+
+.container {
+    display: flex;
+}
+
+#yellow {
+    order: -2;
+}
+
+#red {
+    order: -1;
+}
+
+#orange {
+    flex-basis: 500px;
+}
